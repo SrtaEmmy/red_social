@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* max-height: 100vh; */
+}
+
+body, .fondo{
+    background: #e8e6e6;
+    /* overflow: hidden; */
+    border-radius: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.imagen{
+    border-radius: 5px;
+}
+
+.fecha{
+    font-size: 12px;
+    color: rgb(133, 129, 129);
+    margin: 0;
+}
+
+
+.centro{
+    width: 40%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.lateral{
+    width: 25%;
+    height: 100vh;
+}
+
+.foto_lateral{
+    border-radius: 100%;
+}
+
+/* barras de scroll */
+::-webkit-scrollbar {
+    width: 1px; /* Ancho de la barra de desplazamiento */
+}
+
+
+.width{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.center-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.descripcion{
+ font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nombre_amigos{
+    font-size: larger;
+}
+
+.chat_contactos{
+    background-color: white;
+    margin: 0;
+    border: solid 1px #ccc;
+    width: 90%;
+    display: flex;
+    margin-right: 5px;
+}
+
+.chat_contactos:hover{
+    background-color: #eae0e0;
+    cursor: pointer;
+}
+
+/* muestra los mensajes de un color u otro en funcion de si es del destinatario o remitente */
+.bg_right{
+    background-color: #e8e6e6; 
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ccc;
+
+}
+
+.bg_left{
+    background-color: #85929e; 
+    color: white;
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 5px;
+    box-shadow: -5px 5px 2px #ccc;
+    
+}
+
+/* muestra los mensajes a la derecha */
+.msg-right{
+    text-align: right;
+
+}
+
+.content_all_messages{
+    width: 300px;
+    max-width: 300px;
+}
+
+.message_container{
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+@keyframes brillo {
+    0% {
+        /* box-shadow: 0 0 5px rgb(15, 85, 132); */
+    }
+    50% {
+        box-shadow: 0 0 10px red;
+    }
+    100% {
+        box-shadow: 0 0 5px rgb(15, 85, 132);
+    }
+}
+
+.chat_contactos {
+    animation: brillo .1s ease-in-out 5;
+    /* Animación inicialmente desactivada */
+    animation-play-state: paused;
+}
+
+.activeAnimation {
+    /* Activar la animación */
+    animation-play-state: running !important;
+}
+
+.comentarios{
+    background-color: #dcd8d8;
+    border-radius: 0 0 10px 10px;
+}
+
+.hide_comentarios{
+    display: none;
+}
+
+.btn-bg{
+    background-color: rgb(131, 165, 234);
+}
+
+

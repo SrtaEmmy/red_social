@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    background: rgb(249, 243, 243) !important;
+}
+
+
+.contenedorPadre {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedorHijo {
+    background-color: white;
+    padding: 20px;
+    padding: 70px  50px 70px  50px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #111010;
+    align-self: center;
+  }
+
+.input{
+    margin: 20px 20px 20px 0;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+
+button{
+    background-color: rgb(213, 228, 242);
+    border-radius: 4px !important;
+    border: none;
+    padding: 10px;
+    
+}
+
+button:hover{
+    background-color: rgb(108, 147, 181);
+}
+
+.credenciales{
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+
+}
+
