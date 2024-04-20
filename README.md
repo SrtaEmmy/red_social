@@ -1,12 +1,9 @@
 <div id="header" align="center">
-     <video width="640" height="360" controls>
-        <source src="videoRedSocial.mp4" type="video/mp4">
-     </video>
+   <img src="https://raw.githubusercontent.com/DEVSENSE/phptools-docs/master/docs/vscode/imgs/completion-tooltip.gif" width="800"/>
 </div>
 <br>
+
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=500&color=F75EAC&width=435&lines=Red+Social+%F0%9F%92%BB;PHP+Mysql+AJAX" alt="Typing SVG" /></a>
-
-
 
 
 <div id="badge" align="center">
