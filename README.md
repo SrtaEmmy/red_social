@@ -3,7 +3,7 @@
 </div>
 <br>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=500&color=F75EAC&width=435&lines=Red+Social+%F0%9F%92%BB;PHP+Mysql+AJAX" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=500&color=F75EAC&width=435&lines=%F0%9F%92%BBRed+Social+con:%F0%9F%90%98;PHP+Mysql+AJAX" alt="Typing SVG" /></a>
 
 
 <div id="badge" align="center">
@@ -23,8 +23,8 @@
 - Guardar publicaciones
 - Chatear en línea con otros usuarios
 
+</br>
 
-
-  <h3 align="center">
-    💻Hecho con PHP🐘 y 💝 
+  <h3  align="center">
+    <pre>💻Hecho con PHP🐘 y 💝 </pre>
   <h3/>
