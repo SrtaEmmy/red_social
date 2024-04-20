@@ -1,6 +1,6 @@
 <div id="header" align="center">
      <video width="640" height="360" controls>
-        <source src="videos/mi_video.mp4" type="video/mp4">
+        <source src="videoRedSocial.mp4" type="video/mp4">
      </video>
 </div>
 <br>
